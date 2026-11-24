@@ -6,9 +6,12 @@ const CONFIG = {
     // Backend API Base URL
     // In local development: http://localhost:8080
     // In production: update this with your deployed Render backend URL (e.g. https://pooja-portfolio-backend.onrender.com)
-    API_BASE_URL: window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
+
+    // Backend API Base URL
+    API_BASE_URL: window.location.hostname === 'localhost' ||
+        window.location.hostname === '127.0.0.1'
         ? 'http://localhost:8080'
-        : 'https://pooja-portfolio-backend.onrender.com',
+        : 'https://pooja-portfolio-backend-27he.onrender.com',
 
     // Personal & Profile Details
     PROFILE: {
