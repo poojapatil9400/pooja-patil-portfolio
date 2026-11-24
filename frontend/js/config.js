@@ -19,7 +19,7 @@ const CONFIG = {
         location: "Pune, Maharashtra, India",
         githubUsername: "poojapatil9400",
         githubUrl: "https://github.com/poojapatil9400",
-        linkedinUrl: "https://www.linkedin.com/in/poojapatil9400", // Update with your exact LinkedIn vanity URL
+        linkedinUrl: "https://www.linkedin.com/in/pooja-patil-94498a232/",
         resumePath: "assets/resume/Pooja_Patil_Resume.pdf"
     },
 

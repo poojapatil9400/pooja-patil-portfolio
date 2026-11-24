@@ -67,19 +67,51 @@ const PROJECTS_DATA = {
         contribution: 'Implemented transaction business logic in Python, designed relational database schema in MySQL, and incorporated thorough exception handling for robust operations.',
         githubUrl: 'https://github.com/poojapatil9400/Banking-Management-System-using-Python-MySQL'
     },
-    'guide2hire': {
-        title: 'Guide2Hire – Internship Discovery App',
+    'bhumimaitri': {
+        title: 'Bhumi Maitri – Farmer Community & Farm Management Application',
         category: 'flutter',
         categoryLabel: 'Flutter / Mobile',
-        technologies: ['Dart', 'Flutter Framework', 'Firebase Auth', 'Cloud Firestore', 'Cloud Storage'],
-        problemStatement: 'College graduates and students struggle to discover verified internship opportunities matching their skill profiles through disjointed social media channels.',
-        keyFeatures: [
-            'Cross-platform mobile application delivering consistent user experience on Android & iOS.',
-            'Firebase Authentication for secure student and employer sign-in.',
-            'Real-time Firestore database synchronization for instant opportunity updates.',
-            'Customizable applicant profile management with resume upload to Firebase Cloud Storage.'
+        isCompanyProject: true,
+        technologies: [
+            'Flutter',
+            'Dart',
+            'Firebase Authentication',
+            'Cloud Firestore',
+            'Firebase Cloud Storage',
+            'Provider State Management',
+            'Local Storage'
         ],
-        contribution: 'Engineered responsive UI screens with reusable Flutter widgets, integrated Firebase backend authentication and Firestore database, and collaborated via Git/GitHub during internship.',
+        problemStatement: 'Farmers frequently encounter difficulties managing hired farm labour, tracking daily attendance and wage disbursements, and accessing verified peer knowledge for seasonal crop management.',
+        keyFeatures: [
+            'Labour Management Module: Comprehensive management of farm labour profiles, salary information, and attendance-related functionality.',
+            'Farmer Community Platform: Digital community where farmers connect, communicate, and share agricultural knowledge.',
+            'Interactive Story & Posts Modules: Rich media sharing for farming experiences, crop techniques, and updates.',
+            'Search & In-App Chat: Direct discovery and real-time messaging between community members.',
+            'User Profile & Local Storage: Secure profile management with local storage implementation for fast offline-capable access.'
+        ],
+        contribution: 'Contributed as a Flutter Developer Intern at Shris Tech; developed and improved mobile application UI screens, engineered Labour Management module features (profiles, salary, attendance), worked on Story, Posts, Search, Chat, and Profile modules, assisted with Firebase integration and application data management, implemented local storage, and debugged issues to elevate overall user experience.',
+        githubUrl: 'https://www.shristech.com'
+    },
+    'guide2hire': {
+        title: 'Guide2Hire – Mobile Internship Platform',
+        category: 'flutter',
+        categoryLabel: 'Flutter / Mobile',
+        technologies: [
+            'Flutter',
+            'Dart',
+            'Firebase Authentication',
+            'Cloud Firestore',
+            'Firebase Cloud Storage'
+        ],
+        problemStatement: 'Graduating students and aspiring professionals face significant friction finding verified internship opportunities tailored to their technical skillsets.',
+        keyFeatures: [
+            'Cross-platform mobile application developed using Flutter and Dart.',
+            'Firebase Authentication for secure student registration, login, and session validation.',
+            'Real-time Cloud Firestore integration for internship listings and application tracking.',
+            'Firebase Cloud Storage for applicant documents and resume management.',
+            'Responsive UI screens and intuitive navigation designed for mobile devices.'
+        ],
+        contribution: 'Worked as a Mobile Application Developer Intern at Incubators Systems Pvt. Ltd.; contributed to mobile app development using Flutter & Dart, implemented UI screens and application functionality, assisted with Firebase integration and backend data management, debugged issues, and improved usability.',
         githubUrl: 'https://github.com/poojapatil9400/Guide2_hire'
     },
     'expense': {
@@ -320,7 +352,14 @@ function initProjectModal() {
             techContainer.innerHTML = data.technologies.map(t => `<span class="tech-pill">${t}</span>`).join('');
 
             const repoLink = document.getElementById('modal-github-link');
-            if (repoLink) repoLink.href = data.githubUrl;
+            if (repoLink) {
+                repoLink.href = data.githubUrl || '#';
+                if (data.isCompanyProject || projectId === 'bhumimaitri') {
+                    repoLink.innerHTML = '<i class="fas fa-building"></i> Visit Shris Tech (Company Project)';
+                } else {
+                    repoLink.innerHTML = '<i class="fab fa-github"></i> View GitHub Repository';
+                }
+            }
 
             // Show Modal
             modalOverlay.classList.add('active');

@@ -8,8 +8,6 @@ services:
     startCommand: java -jar target/portfolio-backend-1.0.0.jar
     healthCheckPath: /api/health
     envVars:
-      - key: PORT
-        value: 8080
       - key: JPA_DDL_AUTO
         value: update
       - key: DB_URL
@@ -17,4 +15,6 @@ services:
       - key: DB_USERNAME
         sync: false
       - key: DB_PASSWORD
+        sync: false
+      - key: CORS_ALLOWED_ORIGINS
         sync: false

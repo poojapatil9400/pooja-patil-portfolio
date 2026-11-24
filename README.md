@@ -73,8 +73,9 @@ Developed with a **Java Spring Boot 3 RESTful API backend**, **MySQL database**,
    - Interactive "View Details" modal for deep technical overviews (Problem statement, key features, architecture, personal contribution, and GitHub code links).
 
 5. **Genuine Career Timeline & Education:**
-   - Mobile App Developer Intern at Guide2Hire (Flutter & Firebase).
-   - Sales Executive at FotoOwl.ai (Accurately documented business development, client onboarding, and SaaS subscriptions).
+   - Solution Architect at FotoOwl.ai (AI-powered media management platform, client requirements, product demos, platform workflows).
+   - Software Developer Intern at Shris Tech (Bhumi Maitri – Farmer Community & Farm Management mobile app with Flutter & Firebase).
+   - Mobile Application Developer Intern at Incubators Systems Pvt. Ltd. (Guide2Hire – Internship Platform with Flutter & Firebase).
    - High-achieving academic background: **9.52 CGPA** in B.E. Computer Engineering (SPPU) and **8.72 CGPA** in Diploma.
 
 6. **Live GitHub REST API Integration:**
@@ -208,5 +209,5 @@ Open `http://localhost:3000` in your browser.
 - **Title:** Computer Engineering Graduate | Java Developer | Software Developer
 - **Email:** [poojapatil121076@gmail.com](mailto:poojapatil121076@gmail.com)
 - **GitHub:** [@poojapatil9400](https://github.com/poojapatil9400)
-- **LinkedIn:** [Pooja Patil](https://www.linkedin.com/in/poojapatil9400)
+- **LinkedIn:** [Pooja Patil](https://www.linkedin.com/in/pooja-patil-94498a232/)
 - **Location:** Pune, Maharashtra, India

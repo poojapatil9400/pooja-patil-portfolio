@@ -12,7 +12,7 @@ Modern, responsive, high-performance developer portfolio website designed for fu
 - **Hero & Typing Animation:** Dynamic typewriter effect looping through developer specializations, call-to-action buttons, profile headshot with an animated glowing gradient halo, and instant resume download.
 - **Categorized Technical Skills:** Clean skill cards grouped by Programming Languages, Backend, Frontend, Databases, Frameworks, and Tools without fake percentage bars.
 - **Featured Projects Showcase:** Interactive project cards with dynamic category filtering (`Java`, `Web`, `Flutter`, `Python`) and "View Details" modal dialogs.
-- **Authentic Experience Timeline:** Vertical timeline presenting the Mobile App Developer Internship (Guide2Hire) and genuine Business Development / Sales responsibilities (FotoOwl.ai).
+- **Authentic Experience Timeline:** Vertical timeline presenting the Solution Architect role (FotoOwl.ai), Software Developer Internship (Shris Tech – Bhumi Maitri), and Mobile Application Developer Internship (Incubators Systems Pvt. Ltd. – Guide2Hire).
 - **Verified Education & Certifications:** Comprehensive education cards displaying degree CGPA (9.52 at SPPU), diploma CGPA (8.72), and certifications from Core2web Technologies and IBM.
 - **Live GitHub REST API Integration:** Dynamic profile header, repository card feed sorted by update date, star and fork counts, language badges, "Show More" pagination, and fallback protection against API rate limiting.
 - **Full-Stack Contact Form:** Client-side validation, anti-spam duplicate prevention, loading spinner, and integration with the Spring Boot REST backend (`POST /api/contact`).
@@ -57,7 +57,7 @@ const CONFIG = {
         email: "poojapatil121076@gmail.com",
         githubUsername: "poojapatil9400",
         githubUrl: "https://github.com/poojapatil9400",
-        linkedinUrl: "https://www.linkedin.com/in/poojapatil9400"
+        linkedinUrl: "https://www.linkedin.com/in/pooja-patil-94498a232/"
     }
 };
 ```
