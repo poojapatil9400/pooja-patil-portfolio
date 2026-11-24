@@ -1,8 +1,11 @@
 
-# Stage 1: Build Spring Boot application
+# Stage 1: Build application
 FROM maven:3.9.6-eclipse-temurin-17 AS build
 
 WORKDIR /app
+
+# Configure Maven mirror
+COPY settings.xml /root/.m2/settings.xml
 
 COPY pom.xml .
 COPY src ./src
