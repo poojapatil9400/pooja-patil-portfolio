@@ -7,13 +7,12 @@ Developed with a **Java Spring Boot 3 RESTful API backend**, **MySQL database**,
 ---
 
 ## 🌟 Live Demo & Architecture Overview
+### 🔗 Live Project Links
 
-- **Frontend Hosting:** [Netlify](https://www.netlify.com/) (HTTPS enabled, automated CI/CD)
-- **Backend Hosting:** [Render](https://render.com/) (Spring Boot Web Service containerized or Java runtime)
-- **Database:** Managed Cloud MySQL (e.g., Aiven / TiDB / Clever Cloud)
-- **GitHub Repository:** [pooja-patil-portfolio](https://github.com/poojapatil9400/pooja-patil-portfolio)
-
-```
+- **Live Portfolio Website:** https://tubular-cheesecake-43dea7.netlify.app/
+- **Backend API:** https://pooja-portfolio-backend-27he.onrender.com
+- **Backend Health Check:** https://pooja-portfolio-backend-27he.onrender.com/api/health
+- 
 ┌─────────────────────────────────────────────────────────────┐
 │                       Client Browser                        │
 │               (Desktop, Tablet, Mobile)                     │
